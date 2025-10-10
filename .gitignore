@@ -1,0 +1,12 @@
+# Ambiente virtual
+.venv/
+__pycache__/
+*.pyc
+
+# Dados locais
+.env
+.DS_Store
+*.xlsx
+
+# Config VS Code
+.vscode/
