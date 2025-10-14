@@ -1,0 +1,209 @@
+/* ===== RESET E CONFIGURAÇÕES GERAIS ===== */
+.main .block-container {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+/* ===== SIDEBAR PRETO COM LETRAS BRANCAS ===== */
+[data-testid="stSidebar"] {
+    background-color: #000000 !important;
+}
+
+[data-testid="stSidebar"] * {
+    color: #ffffff !important;
+}
+
+.css-1d391kg, 
+.css-1r6slb0,
+.css-1cypcdb,
+.css-1aumxhk {
+    background-color: #000000 !important;
+}
+
+.sidebar .sidebar-content {
+    background-color: #000000 !important;
+}
+
+.sidebar .sidebar-content * {
+    color: #ffffff !important;
+}
+
+/* ===== HEADER DO DASHBOARD ===== */
+.dashboard-header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    padding: 2rem;
+    border-radius: 15px;
+    color: white !important;
+    margin-bottom: 2rem;
+    text-align: center;
+    border: 1px solid #333;
+}
+
+.dashboard-header h1, 
+.dashboard-header h2, 
+.dashboard-header h3,
+.dashboard-header p,
+.dashboard-header span,
+.dashboard-header div {
+    color: white !important;
+}
+
+/* ===== CONTEÚDO PRINCIPAL ===== */
+.main-content {
+    text-align: center; 
+    padding: 3rem; 
+    color: white !important;
+}
+
+.main-content h3,
+.main-content p {
+    color: white !important;
+}
+
+/* ===== CARDS DE MÉTRICAS ===== */
+.metric-card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    border-left: 4px solid #667eea;
+    margin-bottom: 1rem;
+    border: 1px solid #e0e0e0;
+}
+
+.metric-card div {
+    color: black !important;
+}
+
+/* ===== CONTAINERS DE GRÁFICOS ===== */
+.graph-container {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    margin-bottom: 1.5rem;
+    border: 1px solid #e0e0e0;
+}
+
+.graph-container h1,
+.graph-container h2,
+.graph-container h3,
+.graph-container h4,
+.graph-container p,
+.graph-container span,
+.graph-container div {
+    color: black !important;
+}
+
+/* ===== ABAS ===== */
+.stTabs [data-baseweb="tab-list"] {
+    gap: 8px;
+    background-color: transparent;
+}
+
+.stTabs [data-baseweb="tab"] {
+    height: 50px;
+    white-space: pre-wrap;
+    background-color: #f8f9fa;
+    border-radius: 8px 8px 0px 0px;
+    padding: 10px 16px;
+    font-weight: 500;
+    color: black !important;
+    border: 1px solid #ddd;
+}
+
+.stTabs [data-baseweb="tab"] div {
+    color: black !important;
+}
+
+.stTabs [aria-selected="true"] {
+    background-color: #667eea !important;
+    color: white !important;
+}
+
+.stTabs [aria-selected="true"] div {
+    color: white !important;
+}
+
+/* ===== FORMULÁRIOS E INPUTS ===== */
+.stTextInput input,
+.stSelectbox select,
+.stNumberInput input,
+.stTextArea textarea,
+.stDateInput input {
+    color: black !important;
+    background-color: white !important;
+    border: 1px solid #ccc !important;
+}
+
+.stTextInput label,
+.stSelectbox label,
+.stNumberInput label,
+.stTextArea label,
+.stDateInput label,
+.stRadio label,
+.stCheckbox label {
+    color: black !important;
+}
+
+/* ===== BOTÕES ===== */
+.stButton button {
+    color: white !important;
+    background-color: #667eea !important;
+    border: none !important;
+}
+
+.stDownloadButton button {
+    color: white !important;
+    background-color: #28a745 !important;
+    border: none !important;
+}
+
+/* ===== RESPONSIVIDADE ===== */
+@media (max-width: 1200px) {
+    .dashboard-header {
+        padding: 1.5rem;
+    }
+    .metric-card, .graph-container {
+        padding: 1.25rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .dashboard-header {
+        padding: 1.25rem;
+    }
+    .dashboard-header h1 {
+        font-size: 2rem !important;
+    }
+    .metric-card, .graph-container {
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .dashboard-header {
+        padding: 1rem;
+    }
+    .dashboard-header h1 {
+        font-size: 1.75rem !important;
+    }
+    .metric-card, .graph-container {
+        padding: 0.75rem;
+    }
+    .main-content {
+        padding: 2rem !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .dashboard-header {
+        padding: 0.75rem;
+    }
+    .dashboard-header h1 {
+        font-size: 1.5rem !important;
+    }
+    .main-content {
+        padding: 1rem !important;
+    }
+}

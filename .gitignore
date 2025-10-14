@@ -4,7 +4,6 @@ __pycache__/
 *.pyc
 
 # Dados locais
-.env
 .DS_Store
 *.xlsx
 
