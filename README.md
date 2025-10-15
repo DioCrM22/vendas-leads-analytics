@@ -23,13 +23,18 @@ Como parte da conclusão do meu curso de **PostgreSQL**, desenvolvi este dashboa
 
 ## 📸 Screenshots
 
-### 💰 Dashboard de Vendas
 ![Dashboard Vendas](images/Dash.png)
 
-### 👥 Dashboard de Leads  
+### 👥 Performance de Leads
+![Dashboard Leads](images/Dash4.png)
+
+### 💰 Dashboard de Vendas
 ![Dashboard Leads](images/Dash2.png)
 
-### 📊 Visão Geral
+### 📊 Visualizar Dados
+![Dashboard Leads](images/Dash5.png)
+
+### ⚙️ Configurações
 ![Visão Geral](images/Dash3.png)
 
 ## 🚀 Funcionalidades
@@ -57,80 +62,66 @@ Como parte da conclusão do meu curso de **PostgreSQL**, desenvolvi este dashboa
 ## 🛠️ Tecnologias & Habilidades
 
 ### **Backend & Análise**
-``python
+[![python](https://skillicons.dev/icons?i=python,postgres)](https://skillicons.dev)
+
 # Habilidades demonstradas no projeto
 - Python 3.11+
 - Pandas (Manipulação avançada de dados)
 - PostgreSQL (Modelagem e consultas complexas)
 - NumPy (Cálculos numéricos)
+  
 Frontend & Visualização
 python
 - Streamlit (Framework web)
 - Plotly (Gráficos interativos)
 - CSS Personalizado (Design profissional)
 - Visualização Geográfica (Mapas e heatmaps)
+  
 DevOps & Deploy
 python
 - Git & GitHub (Controle de versão)
 - Streamlit Cloud (Deploy automatizado)
 - Gestão de Dependências
 - CI/CD Básico
-📊 Estrutura do Projeto
+  
+# 📊 Estrutura do Projeto
 text
 dashboard-vendas-leads/
+
 ├── 📁 pages/                 # Módulos da aplicação
+
 │   ├── 1_📊_Dados.py        # Gerenciamento de dados
+
 │   ├── 2_💰_Dashboard_Vendas.py
+
 │   ├── 3_👥_Dashboard_Leads.py
+
 │   └── 4_⚙️_Configurações.py
+
 ├── 📁 utils/                 # Lógica de negócio
+
 │   ├── 📁 core/             # Funcionalidades centrais
+
 │   ├── 📁 vendas/           # Específico para vendas
+
 │   ├── 📁 leads/            # Específico para leads
+
 │   └── 📁 config/           # Configurações do sistema
+
 ├── 📁 styles/               # Estilos CSS
+
 ├── 📄 requirements.txt      # Dependências
+
 └── 📄 README.md            # Documentação
-🎓 Minha Jornada com SQL
-Conhecimentos Adquiridos no Curso:
-sql
--- ✅ Consultas Complexas
-SELECT 
-    EXTRACT(MONTH FROM data_venda) as mes,
-    SUM(receita) as total_receita,
-    AVG(ticket_medio) as ticket_medio
-FROM vendas 
-GROUP BY mes 
-ORDER BY mes;
 
--- ✅ Junções e Subconsultas
-SELECT 
-    c.nome,
-    COUNT(v.id) as total_compras,
-    RANK() OVER (ORDER BY COUNT(v.id) DESC) as ranking
-FROM clientes c
-LEFT JOIN vendas v ON c.id = v.cliente_id
-GROUP BY c.id, c.nome;
-
--- ✅ Otimização e Performance
-CREATE INDEX idx_vendas_data ON vendas(data_venda);
-CREATE INDEX idx_leads_regiao ON leads(regiao);
-Aplicação Prática no Dashboard:
-Modelagem Relacional: Estrutura de dados normalizada
-
-Consultas Otimizadas: Agregações e análises complexas
-
-Funções de Janela: Cálculos de ranking e tendências
-
-Índices Estratégicos: Performance em grandes volumes
-
-🚀 Como Executar
+# 🚀 Como Executar
 Pré-requisitos
-bash
+```bash
 Python 3.8+
 Git
+```
 Instalação e Execução
-bash
+```bash
 # 1. Clone o repositório
 git clone https://github.com/seuusuario/dashboard-vendas-leads.git
 
@@ -145,10 +136,11 @@ streamlit run app.py
 
 # 5. Acesse no navegador
 # http://localhost:8501
+```
 Deploy Automático
 O projeto está configurado para deploy automático no Streamlit Cloud. Qualquer push para a branch main atualiza automaticamente a aplicação.
 
-📈 Próximos Passos
+# 📈 Próximos Passos
 Integração com banco de dados PostgreSQL em tempo real
 
 Autenticação de usuários
@@ -159,19 +151,16 @@ Análises preditivas com machine learning
 
 Dashboard mobile responsivo
 
-👨‍💻 Sobre o Desenvolvedor
-Seu Nome - Analista de Dados & Desenvolvedor Python
+# 👨‍💻 Sobre o Desenvolvedor
+Diogo Maia -  Desenvolvedor Junior
 
-🎓 Formação: Curso de PostgreSQL - [Nome da Instituição]
-💼 Experiência: Desenvolvimento de dashboards e análise de dados
-🚀 Foco: Python, SQL, Análise de Dados, Visualização
+📍 São Paulo, SP  
+📧 **diogocrmaia03@gmail.com**  
+💼 **[LinkedIn - Diogo Cruz Maia]** **(https://www.linkedin.com/in/diogo-maia-30585b230)**  
 
-Conecte-se Comigo:
-https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white
-https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white
-https://img.shields.io/badge/Portfolio-FF7139?style=for-the-badge&logo=Firefox-Browser&logoColor=white
+---
 
-📄 Licença
+## 📄 Licença
 Este projeto está sob a licença MIT. Veja o arquivo LICENSE para detalhes.
 
 <div align="center">
@@ -179,4 +168,4 @@ Este projeto está sob a licença MIT. Veja o arquivo LICENSE para detalhes.
 
 Desenvolvido com 💙 e ☕ durante o curso de PostgreSQL
 
-</div> ``
+</div> 
