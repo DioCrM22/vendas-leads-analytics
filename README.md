@@ -21,8 +21,16 @@ Como parte da conclusão do meu curso de **PostgreSQL**, desenvolvi este dashboa
 
 > 💡 **Destaque Técnico:** Todo o modelo de dados foi estruturado seguindo as melhores práticas de normalização SQL que aprendi no curso.
 
-![Dashboard Preview](https://via.placeholder.com/800x400/2E86AB/FFFFFF?text=Dashboard+Vendas+%26+Leads+Preview)
-**(Adicione screenshots reais do seu dashboard aqui)*
+## 📸 Screenshots
+
+### 💰 Dashboard de Vendas
+![Dashboard Vendas](images/Dash.png)
+
+### 👥 Dashboard de Leads  
+![Dashboard Leads](images/Dash2.png)
+
+### 📊 Visão Geral
+![Visão Geral](images/Dash3.png)
 
 ## 🚀 Funcionalidades
 
