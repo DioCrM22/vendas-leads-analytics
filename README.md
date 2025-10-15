@@ -25,17 +25,13 @@ Como parte da conclusão do meu curso de **PostgreSQL**, desenvolvi este dashboa
 
 ![Dashboard Vendas](images/Dash.png)
 
-### 👥 Performance de Leads
-![Dashboard Leads](images/Dash4.png)
+| **👥 Performance de Leads**| **💰 Dashboard de Vendas**  |
+|---------------|--------------|
+| <img src="./images/Dash4.png" width="1000"/> | <img src="./images/Dash4.png" width="1000"/> | 
 
-### 💰 Dashboard de Vendas
-![Dashboard Leads](images/Dash2.png)
-
-### 📊 Visualizar Dados
-![Dashboard Leads](images/Dash5.png)
-
-### ⚙️ Configurações
-![Visão Geral](images/Dash3.png)
+| **📊 Visualizar Dados**| **⚙️ Configurações**  |
+|---------------|--------------|
+| <img src="./images/Dash5.png" width="1000"/> | <img src="./images/Dash3.png" width="1000"/> | 
 
 ## 🚀 Funcionalidades
 
@@ -64,7 +60,7 @@ Como parte da conclusão do meu curso de **PostgreSQL**, desenvolvi este dashboa
 ### **Backend & Análise**
 [![python](https://skillicons.dev/icons?i=python,postgres)](https://skillicons.dev)
 
-# Habilidades demonstradas no projeto
+### Habilidades demonstradas no projeto
 - Python 3.11+
 - Pandas (Manipulação avançada de dados)
 - PostgreSQL (Modelagem e consultas complexas)
@@ -84,7 +80,7 @@ python
 - Gestão de Dependências
 - CI/CD Básico
   
-# 📊 Estrutura do Projeto
+## 📊 Estrutura do Projeto
 text
 dashboard-vendas-leads/
 
@@ -114,7 +110,7 @@ dashboard-vendas-leads/
 
 └── 📄 README.md            # Documentação
 
-# 🚀 Como Executar
+## 🚀 Como Executar
 Pré-requisitos
 ```bash
 Python 3.8+
@@ -140,7 +136,7 @@ streamlit run app.py
 Deploy Automático
 O projeto está configurado para deploy automático no Streamlit Cloud. Qualquer push para a branch main atualiza automaticamente a aplicação.
 
-# 📈 Próximos Passos
+## 📈 Próximos Passos
 Integração com banco de dados PostgreSQL em tempo real
 
 Autenticação de usuários
@@ -162,6 +158,8 @@ Diogo Maia -  Desenvolvedor Junior
 
 ## 📄 Licença
 Este projeto está sob a licença MIT. Veja o arquivo LICENSE para detalhes.
+
+
 
 <div align="center">
 ⭐ Se este projeto te ajudou, deixe uma estrela no repositório!
