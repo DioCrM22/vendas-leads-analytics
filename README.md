@@ -7,7 +7,8 @@
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-2C2D72?style=for-the-badge&logo=pandas&logoColor=white)
 
-**Dashboard interativo desenvolvido como projeto final do curso de PostgreSQL**
+**Dashboard interativo desenvolvido como projeto final do curso de SQL para Análise de Dados: Do básico ao avançado**
+**Criado por Midori Toyota pela plataforma Udemy**
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://seusuario-streamlit-app.streamlit.app/)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/seuusuario/dashboard-vendas-leads)
