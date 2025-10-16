@@ -119,10 +119,10 @@ Git
 Instalação e Execução
 ```bash
 # 1. Clone o repositório
-git clone https://github.com/seuusuario/dashboard-vendas-leads.git
+git clone (https://github.com/DioCrM22/vendas-leads-analytics.git)
 
 # 2. Acesse o diretório
-cd dashboard-vendas-leads
+cd vendas-leads-analytics
 
 # 3. Instale as dependências
 pip install -r requirements.txt
