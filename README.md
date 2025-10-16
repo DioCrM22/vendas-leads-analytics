@@ -13,6 +13,8 @@
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://seusuario-streamlit-app.streamlit.app/)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/seuusuario/dashboard-vendas-leads)
 
+[Link do projeto: Clique aqui 🚩](https://vendas-leads-analytics-cua6s2rsk8eapc5cudzmiz.streamlit.app/)
+
 </div>
 
 ## 🎯 Sobre o Projeto
